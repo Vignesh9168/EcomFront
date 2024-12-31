@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="Style.css" type="text/css" >
+      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png"/>
+      <title> Buy Online</title>
+      <script src="Authentication.js" defer></script>
+    </head>
+
+ 
+  <body> 
+    <div class="container">
+    
+    <div class="row">
+      <div class="col-6">  
+        <form id="loginForm" class="aligning ml-5 p-5">
+            
+            <h1 class="m-5 login-head"> Login page</h1>  
+            <div class="mb-3">
+              <label for="email">  E-mail   :</label>
+              <input class="ml-4" id="email" type="text" value="" placeholder="type your email"/ > 
+            </div>  
+
+            <div class="mb-3">
+              <label for="Name"> Name :</label>
+              <input id="Name" class="ml-4" type="text" value="" placeholder="type your Name"/ > 
+            </div>
+
+            <div class="mb-3">
+              <label for="password" > Password :</label>
+              <input id="password" type="password" value="" placeholder="Type Password" / > 
+            </div>
+            <br>
+
+            <div class="button-margin mb-3"> 
+              <button class="btn btn-primary mt-3"  type="Submit" >Submit </button>
+              <button class="btn btn-secondary mt-3" id="loginButton" type="button">Log In</button>
+            </div>
+            <p id="error-msg" class="ml-5"> </p>
+        </form>    
+
+        <!-- <div class="col-6 d-flex justify-content-center align-items-center">
+  
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-website-logo-img.png" alt="E-commerce logo">
+       </div> -->
+      </div> 
+    </div>  
+  </div>
+    
+  </body>
+</html> 
